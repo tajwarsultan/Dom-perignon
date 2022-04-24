@@ -1,0 +1,77 @@
+.custom-wrapper {
+  width: 100%;
+}
+.custom-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.custom-category img {
+  width: 475px;
+  height: 54px;
+  padding-bottom: 22px;
+}
+.logo-box img {
+  width: 40px;
+  height: 40px;
+}
+.logo-box {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 0px 30px 0px;
+}
+nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  padding: 0px 0px 30px 60px;
+}
+nav h3 {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ccb87d;
+  text-transform: uppercase;
+}
+nav a {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 39px;
+}
+.card-img img {
+  width: 370px;
+  height: 200px;
+}
+.point-number {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}

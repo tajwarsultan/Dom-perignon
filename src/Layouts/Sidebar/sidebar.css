@@ -1,0 +1,37 @@
+.sidebar-container {
+  box-shadow: 13px 0px 38px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  gap: 40px;
+  height: 100vh;
+  padding-top: 97px;
+}
+.sidebar-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+ul span {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #ccb87d;
+  text-transform: uppercase;
+}
+.sidebar-wrapper ul li,a {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000 !important;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5px;
+  text-decoration: none;
+}
