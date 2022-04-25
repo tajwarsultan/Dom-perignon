@@ -9,13 +9,13 @@ function Sidebar() {
         <ul>
           <span>Home</span>
           <li>
-            <Link to="/news">News</Link>
+            <Link to="/">News</Link>
           </li>
           <li>
             <Link to="/account">Account</Link>
           </li>
           <li>
-            <Link to="/">FAQ</Link>
+            <Link to="/faq">FAQ</Link>
           </li>
         </ul>
       </div>
@@ -31,13 +31,13 @@ function Sidebar() {
         <ul>
           <span>ADMINISTRATION</span>
           <li>
-            <Link to="/">DASHBOARD</Link>
+            <Link to="/dashboard">DASHBOARD</Link>
           </li>
           <li>
-            <Link to="/">USERS</Link>
+            <Link to="/users">USERS</Link>
           </li>
           <li>
-            <Link to="/">SETTINGS</Link>
+            <Link to="/settings">SETTINGS</Link>
           </li>
         </ul>
       </div>

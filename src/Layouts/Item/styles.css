@@ -7,10 +7,10 @@
   align-items: center;
 }
 .icons-box {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 37% 23%;
+  justify-content: center;
+  padding-bottom: 27px;
 }
 .custom-category img {
   width: 475px;
@@ -20,6 +20,8 @@
 .logo-box img {
   width: 40px;
   height: 40px;
+  background: #ccb87d;
+  border-radius: 5px;
 }
 .logo-box {
   font-family: inherit;
@@ -59,9 +61,9 @@ nav a {
   color: #000000;
 }
 .card-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 37% 23% 0%;
   justify-content: center;
-  gap: 39px;
 }
 .card-img img {
   width: 370px;
@@ -74,4 +76,45 @@ nav a {
   font-size: 32px;
   line-height: 38px;
   color: #000000;
+}
+.BTC {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  width: 24px;
+  height: 16px;
+  background-color: #ccb87d54;
+}
+.gram {
+  margin-top: 22px;
+}
+.gram-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.gram-wrapper {
+  width: 140px;
+  height: 43px;
+  background: rgba(204, 184, 125, 0.33);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+.gram select {
+  color: #000000;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-right: 56px;
+  padding-left: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 41px;
+  width: 95%;
+  font-family: inherit;
 }

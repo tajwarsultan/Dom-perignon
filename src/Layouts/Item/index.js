@@ -5,6 +5,7 @@ import Custom from "../../assets/Custom.svg";
 import Icon from "../../assets/screenshots.svg";
 import Bottle from "../../assets/bottle.svg";
 import { Link } from "react-router-dom";
+import bucket from "../../assets/bucket.svg";
 
 function Home() {
   return (
@@ -45,10 +46,23 @@ function Home() {
               <span>Total balance</span>
               <br />
               <span className="point-number">
-                0.9898459 <span style={{ background: "#CCB87D54" }}>BTC</span>
+                0.9898459 <span className="BTC">BTC</span>
               </span>
               <br />
               <span>45.105,50 €</span>
+            </div>
+          </div>
+          <div className="gram">
+            <div className="gram-container">
+              <div className="gram-wrapper">
+                <select name="grams" id="gram">
+                  <option value="4 gram">4 gram</option>
+                  <option value="4 gram">4 gram</option>
+                </select>
+              </div>
+              <div className="bucket">
+                <img alt="bucket" src={bucket} />
+              </div>
             </div>
           </div>
         </div>
