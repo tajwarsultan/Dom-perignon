@@ -1,0 +1,36 @@
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5rem;
+}
+.about-wrapper {
+  width: 80%;
+}
+.headding h3 {
+  font-family: monospace;
+}
+.me-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.me-icon .me {
+  width: 75px;
+  height: 75px;
+  padding: 10px 0px;
+}
+.about-para {
+  margin-bottom: 3rem;
+}
+.about-para p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #ffffff;
+}
+.about-footer {
+  margin-top: 3rem;
+}

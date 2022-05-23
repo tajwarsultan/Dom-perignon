@@ -1,28 +1,17 @@
-.footer {
-  background-color: red;
+.footer-container .img-box img {
+  width: 30px;
+  height: 30px;
+  stroke: aliceblue;
 }
-.container {
-  position: absolute;
-  bottom: 20px;
-  left: 22%;
+.img-box {
+  padding: 10px;
+  background-color: #ffffff;
+  cursor: pointer;
 }
-.bitcoin {
-  background-color: #bbbbbb;
-  width: 11px;
-  height: 11px;
-  color: #ffffff;
-  border-radius: 50%;
-  padding: 3px;
-  margin-right: 5px;
-  font-size: 10px;
-}
-.container p {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: uppercase;
-  color: #bbbbbb;
-  margin: 2px;
+.footer-container {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }

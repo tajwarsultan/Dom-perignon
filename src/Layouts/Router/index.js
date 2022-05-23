@@ -1,17 +1,17 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "../Home/index";
-import Item from "../Item/index";
-import Account from "../Account/index";
-import FAQ from "../Faq/index";
+import AboutMe from "../AboutMe";
+import Portfolio from "../Portfolio";
+import Contact from "../Contact/index";
+import Resume from "../Resume/index";
 
 export const Navigation = () => {
   return (
     <Routes>
-      <Route exact path="/" element={<Home name="Home" />} />
-      <Route path="/account" element={<Account />} />
-      <Route path="/faq" element={<FAQ />} />
-      <Route path="/item" element={<Item />} />
+      <Route exact path="/" element={<AboutMe />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/resume" element={<Resume />} />
     </Routes>
   );
 };
